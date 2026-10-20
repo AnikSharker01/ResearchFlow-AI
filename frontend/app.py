@@ -12,10 +12,15 @@ st.set_page_config(
     layout="wide",
 )
 
-BACKEND_URL = os.getenv(
-    "BACKEND_URL",
-    "http://127.0.0.1:8000",
-).rstrip("/")
+
+try:
+    BACKEND_URL = st.secrets["BACKEND_URL"].rstrip("/")
+except Exception:
+    BACKEND_URL = os.getenv(
+        "BACKEND_URL",
+        "http://127.0.0.1:8000",
+    ).rstrip("/")
+
 
 
 st.title("🔎 ResearchFlow AI")
