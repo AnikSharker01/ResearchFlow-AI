@@ -118,7 +118,25 @@ The application was tested locally and deployed online. The observed results sho
 
 Future improvements include stronger source ranking, more reliable citation verification, automated tests, improved progress reporting, stricter report-length checks and systematic evaluation using multiple research topics. The application should be treated as a research-assistance tool rather than a substitute for independent verification.
 
-## 9. Project Links
+## 9. Innovation and Impact
+
+### 9.1 Innovation
+
+ResearchFlow AI integrates web search, multi-agent collaboration and automated report generation within a single application. Instead of relying on a single language-model response, the system separates the workflow into four roles: Researcher, Analyst, Writer and Editor. This design provides a structured process for collecting information, analysing findings, drafting a report and reviewing its clarity.
+
+The application also combines source links with downloadable PDF output. This allows users to inspect retrieved sources and retain a report for further review. A potential future improvement is a Source Quality and Citation Audit feature that checks citation consistency and flags claims requiring additional verification. This feature should be described as future work until it has been implemented and tested.
+
+### 9.2 Potential Impact
+
+ResearchFlow AI is intended to support students and early-stage researchers who need to organise online information and prepare initial research drafts. By combining search, analysis, writing and PDF generation, it may reduce repetitive work and provide a more organised starting point for research.
+
+The application also makes source links visible, helping users return to the original material. However, AI-generated content may contain inaccuracies, and source availability does not guarantee that a claim is supported. Users must verify important statements against the original sources before relying on the report.
+
+### 9.3 Evaluation of Innovation and Impact
+
+The prototype demonstrates the integration of web research, four specialised AI-agent roles, a web interface and PDF generation. These features establish the technical basis for the proposed solution. Further evaluation is needed to measure report accuracy, citation reliability, time saved and user satisfaction. These outcomes should be assessed through documented tests rather than assumed from successful report generation alone.
+
+## 10. Project Links
 
 - **Live frontend:** https://researchflow-ai-vt3kzn327itgzy8wkfjquu.streamlit.app/
 - **Backend API:** https://researchflow-ai-959i.onrender.com
