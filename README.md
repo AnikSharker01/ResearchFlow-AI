@@ -144,3 +144,22 @@ The application provides a PDF download endpoint that converts the generated rep
 ## 10. Project Status
 
 The project has a working local prototype. Online deployment and final evaluation should be completed and documented before final submission.
+
+
+## 11. Live Deployment
+
+**Project:** ResearchFlow AI — Multi-Agent Research & Report Writer
+
+- **Live Frontend:** https://researchflow-ai-vt3kzn327itgzy8wkfjquu.streamlit.app/
+- **Backend API:** https://researchflow-ai-959i.onrender.com
+- **Interactive API Documentation:** https://researchflow-ai-959i.onrender.com/docs
+- **Health Check:** https://researchflow-ai-959i.onrender.com/health
+- **GitHub Repository:** https://github.com/AnikShanker01/ResearchFlow-AI
+
+## 12. Demonstration
+
+The deployed application allows users to submit a research topic, retrieve web sources, generate a structured report using a multi-agent workflow and download the report as a PDF.
+
+## 13. Security Notice
+
+API credentials are stored in environment variables and must not be committed to the repository. Users should independently verify AI-generated claims and references.
